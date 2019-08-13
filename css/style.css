@@ -70,6 +70,7 @@
 #main .flex-container{
 	height: 100%;
 	position: relative;
+	background: linear-gradient(90deg, #595959 80%, #8FD0F2 20%);
 }
 
 #squares{
