@@ -7,8 +7,20 @@
 	<title>Oksi Website</title>
 
     <!-- My styles -->
+    <link rel="stylesheet" href="css/jquery.bxslider.css">
 	<link rel="stylesheet" href="css/style.css">
-
+	<!-- bxslider js-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="js/jquery.bxslider.min.js"></script>
+	<script>
+		$(document).ready(function(){
+    		$('.bxslider').bxSlider({
+    			mode:'fade',
+    			captions: true,
+    			slideWidth: 600
+    		});
+  		});
+	</script>
 </head>
 <body>	
 	<!-- ************************* HEAD -->
@@ -51,9 +63,14 @@
 	<!-- ************************* PORTFOLIO -->
 	<div id="portfolio">
 		<div class="flex-container">
-			
+			<div id="slider1">				
+				<div class="bxslider">
+					<div><img src="img/coffee1.jpg" title="Funky roots"></div>
+					<div><img src="img/coffee2.jpg" title="The long and winding road"></div>
+					<div><img src="img/coffee3.jpg" title="Happy trees"></div>
+				</div>
+			</div>
 		</div>
 	</div>
-
 </body>
 </html>

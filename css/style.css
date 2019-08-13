@@ -146,8 +146,13 @@
 
 #portfolio div.flex-container{
 	height: 100%;
+	width: 1170px;
+	justify-content: flex-end;
 }
 
-/*#portfolio .flex-container{
-	background: linear-gradient(90deg, #595959 20%, #8FD0F2 80%);
-}*/
+#slider1{
+	width: 600px;
+	margin-right: 10%;
+	margin-top: 100px;
+}
+
