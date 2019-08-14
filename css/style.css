@@ -107,6 +107,16 @@
 	top: 300px;
 }
 
+#squares div.flower{
+	position: absolute;
+	left: 30px;
+	top: 30px;
+}
+
+.flower img{
+	width: 550px;
+}
+
 #squares .square .littleSquare{
 	position: absolute;
 	width: 30px;
@@ -118,6 +128,7 @@
 #squares .square:nth-child(3) .littleSquare{
 	bottom: 0px;
 }
+
 
 #quotation{
 	position: absolute;
@@ -141,19 +152,96 @@
 
 /************************** PORTFOLIO */
 #portfolio{
-	height: 800px;
+	height: 700px;
 	background: linear-gradient(to left, #8FD0F2 68.45%, #595959 31.55%)
 }
 
 #portfolio div.flex-container{
 	height: 100%;
 	width: 1170px;
-	justify-content: flex-end;
 }
 
 #slider1{
 	width: 600px;
 	margin-right: 10%;
-	margin-top: 100px;
+	margin-top: 10%;
 }
 
+.heading{
+    margin-left: 7%;
+    width: 10%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: 15%;
+}
+
+.heading h2{
+	color: white;
+	font-size: 17px;
+	transform: rotate(270deg);
+}
+
+#portfolio .heading h2:before{	
+    content: "";
+    width: 150px;
+    border-bottom: 2px solid #FFFFFF;
+    position: absolute;
+    top: 8px;
+    right: 320px;  
+}
+
+/************************** COOPERATE */
+#cooperate{
+	height: 700px;
+	background: linear-gradient(to right, #595959 68.45%, #8FD0F2 31.55%)
+}
+
+#cooperate div.flex-container{
+	height: 100%;
+	width: 1170px;
+}
+
+#cooperate .heading h2:before{	
+    content: "";
+    width: 150px;
+    border-bottom: 2px solid #FFFFFF;
+    position: absolute;
+    top: 8px;
+    right: 300px;  
+}
+
+#steps{
+	display: flex;
+	height: 100%;
+	flex-basis: 80%;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	padding-top: 50px;
+}
+
+.step{
+	flex-basis: 35%;
+	height: 35%;
+	margin: 10px;
+}
+
+.step img{
+	width: 70%;
+}
+
+.step p{
+	color: #FFFFFF;
+}
+
+/************************** ADVANTAGES */
+#advantages{
+	height: 700px;
+	background: linear-gradient(to left, #8FD0F2 68.45%, #595959 31.55%)
+}
+
+#advantages div.flex-container{
+	height: 100%;
+	width: 1170px;
+}
