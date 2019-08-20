@@ -273,7 +273,7 @@
 #block-advantages{
 	display: flex;
 	height: 100%;
-	flex-basis: 80%;
+	flex-basis: 70%;
 	justify-content: space-around;
 	flex-wrap: wrap;
 	padding-top: 10%;
@@ -292,14 +292,14 @@
 }
 
 .advantage:nth-of-type(odd){
-	border-top: 15px solid #2C97BD;
-	border-left: 15px solid #2C97BD;
+	border-top: 12px solid #2C97BD;
+	border-left: 12px solid #2C97BD;
 }
 
 .advantage:nth-of-type(even){
 	padding-top: 20px;
-	border-bottom: 15px solid #2C97BD;
-	border-right: 15px solid #2C97BD;	
+	border-bottom: 12px solid #2C97BD;
+	border-right: 12px solid #2C97BD;	
 }
 
 .advantage img{
