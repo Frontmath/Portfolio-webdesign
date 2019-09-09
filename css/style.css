@@ -192,6 +192,24 @@
     right: 350px;  
 }
 
+#portfolio .bx-viewport{
+	overflow: visible !important;
+}
+
+#slider1 .common_btn{
+	position: absolute;
+	bottom: -100px;
+	left: 200px;
+	width: 200px;
+    background-color: #075072;
+    color: #fff;
+	padding: 15px 35px;
+	border-radius: 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+}
+
 /************************** COOPERATE */
 #cooperate{
 	height: 700px;

@@ -1,0 +1,3 @@
+1) Ask Oksana to add sprite for 'CONTACTS' block!?
+2) Discuss button in 'PORTFOLIO' block. Should it be as it is? Or should we implement 'hover' logic?
+3) As Oksana to prepare real content for the website!? Images of works, text and so on...
