@@ -273,20 +273,20 @@
 #block-advantages{
 	display: flex;
 	height: 100%;
-	flex-basis: 70%;
+	flex-basis: 78%;
 	justify-content: space-around;
 	flex-wrap: wrap;
 	padding-top: 10%;
 }
 
 .advantage{
-	flex-basis: 18%;
+	flex-basis: 23%;
 	height: 80%;
 	padding: 10px;
 	color: white;
 	display: flex;
 	flex-direction: column; /* This is to align text inside flex item! */
-	justify-content: space-around; /* This is to align text inside flex item! */
+	justify-content: baseline; /* This is to align text inside flex item! */
 	text-align: center; /* This is to align text inside flex item! */
 	align-items: center;
 }
@@ -297,23 +297,29 @@
 }
 
 .advantage:nth-of-type(even){
-	padding-top: 20px;
+	padding-top: 12px;
 	border-bottom: 12px solid #2C97BD;
 	border-right: 12px solid #2C97BD;	
 }
 
 .advantage img{
 	width: 70%;
+	margin-top: 30px;
+}
+
+.advantage:last-child img{
+	width: 45%;
 }
 
 .advantage h3{
-	font-size: 12px;
+	font-size: 13px;
 	text-transform: uppercase;
-	margin-top: 20px;
+	margin-top: 50px;
 }
 
 
 .advantage p{
 	text-align: center;
-	margin-top: 20px;
+	margin-top: 30px;
+	padding: 10px;
 }
