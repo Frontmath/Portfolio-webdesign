@@ -60,6 +60,89 @@
 	border-bottom: 3px solid white;
 }
 
+/************************** Sticky sidebar with social media and contacts */
+
+.icon-bar {
+  position: fixed;
+  right: 0px;
+  z-index: 9999;
+  padding: 20px;
+  opacity: 0.9;
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.social-item{
+	display: block;
+	width: 60px;
+	height: 60px;
+	margin-bottom: 10px;
+	border-radius: 50%;
+	background-color: #fff;
+	background-image: url('../img/css-sprite.png');
+	background-repeat: no-repeat;	
+}
+
+.social-item a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.email{
+	background-position: -359px -6px;
+}
+
+.phone {
+    background-position: -272px -5px;
+}
+
+.instagram {
+    background-position: -185px -6px;
+}
+
+.viber {
+    background-position: -97px -8px;
+}
+
+.linkedin {
+    background-position: -13px -7px;
+}
+
+.facebook {
+    background-position: -441px -6px;
+}
+
+.email:hover{
+	background-position: -359px -84px;
+}
+
+.phone:hover{
+	background-position: -272px -83px;
+}
+
+.instagram:hover{
+	background-position: -185px -84px;
+}
+
+.viber:hover{
+	background-position: -97px -85px;
+}
+
+.linkedin:hover{
+	background-position: -13px -85px;
+}
+
+.facebook:hover{
+	background-position: -441px -83px;
+}
 
 /************************** MAIN */
 #main{
