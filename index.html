@@ -17,7 +17,9 @@
     		$('.bxslider').bxSlider({
     			mode:'fade',
     			captions: true,
-    			slideWidth: 600
+    			slideWidth: 600,
+    			touchEnabled : (navigator.maxTouchPoints > 0)
+    			// touchEnabled: falsetouchEnabled : (navigator.maxTouchPoints > 0) - this was added because links within slides did not work... may be we need to find a better solution!? When adding responsiveness - check whether swiping works or not!
     		});
   		});
 	</script>
@@ -94,16 +96,16 @@
 			<div id="slider1">				
 				<div class="bxslider">
 					<div>
-						<img src="img/coffee1.jpg" title="Funky roots">
-						<a href="#1" class="common_btn">Смотреть</a>
+						<img src="img/chairSite.png" title="Chair website design.">
+						<a href="https://dribbble.com/shots/7134563-Furniture" class="common_btn">Подробнее</a>
 					</div>
 					<div>
-						<img src="img/coffee2.jpg" title="The long and winding road">
-						<a href="#2" class="common_btn">Смотреть</a>
+						<img src="img/flowerSite.png" title="Flower website design.">
+						<a href="https://dribbble.com/shots/7134800-Flower-design" class="common_btn">Подробнее</a>
 					</div>
 					<div>
 						<img src="img/coffee3.jpg" title="Happy trees">
-						<a href="#3" class="common_btn">Смотреть</a>
+						<a href="#3" class="common_btn">Подробнее</a>
 					</div>
 				</div>
 			</div>

@@ -48,6 +48,7 @@
 	text-decoration: none;
 	font-size: 17px;
 	text-transform: uppercase;
+	font-weight: bold;
 	border-bottom: 3px solid transparent;
 }
 
@@ -406,10 +407,6 @@
 .advantage img{
 	width: 70%;
 	margin-top: 30px;
-}
-
-.advantage:last-child img{
-	width: 45%;
 }
 
 .advantage h3{
