@@ -89,10 +89,6 @@
 	background-color: #fff;
 	background-image: url('../img/css-sprite.png');
 	background-repeat: no-repeat;
-	box-shadow:
-    inset rgba(0,0,0,.6) 0 -3px 8px,
-    inset rgba(252,255,255,.7) 0 3px 8px,
-    rgba(0,0,0,.8) 0 3px 8px -3px;
 }
 
 .social-item a{
@@ -256,7 +252,6 @@
 }
 
 .heading{
-    /*margin-left: 7%;*/
     width: 10%;
     height: 100%;
     display: flex;
@@ -296,18 +291,6 @@
 	text-decoration: none;
 	text-transform: uppercase;
 	text-align: center;
-	/*box-shadow:
-    inset rgba(0,0,0,.6) 0 -3px 8px,
-    inset rgba(252,255,255,.7) 0 3px 8px,
-    rgba(0,0,0,.8) 0 3px 8px -3px;*/
-}
-
-#slider1 .common_btn img{
-	width: 35px;
-	position: absolute;
-	top: 10px;
-	left: 10px;
-
 }
 
 .bx-wrapper{
