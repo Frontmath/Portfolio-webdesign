@@ -11,13 +11,15 @@
 	<link rel="stylesheet" href="css/style.css">
 	<!-- bxslider js-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-	<script src="js/jquery.bxslider.min.js"></script>
+	<script src="js/jquery.bxslider.min.js"></script>	
+	<script src="js/smooth.js"></script>
 	<script>
 		$(document).ready(function(){
     		$('.bxslider').bxSlider({
     			mode:'fade',
     			captions: true,
-    			slideWidth: 600,
+    			slideWidth: 650,
+    			adaptiveHeight: true,
     			touchEnabled : (navigator.maxTouchPoints > 0)
     			// touchEnabled: falsetouchEnabled : (navigator.maxTouchPoints > 0) - this was added because links within slides did not work... may be we need to find a better solution!? When adding responsiveness - check whether swiping works or not!
     		});
@@ -58,9 +60,9 @@
 			<!-- The navigation menu -->
 			<div class="navbar">
 			  <a class="active" href="#">Главная</a> 
-			  <a href="#">Портфолио</a> 
-			  <a href="#">Услуги</a> 
-			  <a href="#">Контакты</a>
+			  <a href="#portfolio">Портфолио</a> 
+			  <a href="#">Обо мне</a> 
+			  <a href="#cooperate">Сотрудничество</a>
 			</div>
 		</div>
 	</div>
@@ -97,15 +99,15 @@
 				<div class="bxslider">
 					<div>
 						<img src="img/chairSite.png" title="Chair website design.">
-						<a href="https://dribbble.com/shots/7134563-Furniture" class="common_btn">Подробнее</a>
+						<a href="https://dribbble.com/shots/7134563-Furniture" class="common_btn" target="_blank"><img src="img/dribbles.png" alt="Background image">Подробнее</a>
 					</div>
 					<div>
 						<img src="img/flowerSite.png" title="Flower website design.">
-						<a href="https://dribbble.com/shots/7134800-Flower-design" class="common_btn">Подробнее</a>
+						<a href="https://dribbble.com/shots/7134800-Flower-design" class="common_btn" target="_blank"><img src="img/dribbles.png" alt="Background image">Подробнее</a>
 					</div>
 					<div>
 						<img src="img/coffee3.jpg" title="Happy trees">
-						<a href="#3" class="common_btn">Подробнее</a>
+						<a href="#3" class="common_btn" target="_blank"><img src="img/dribbles.png" alt="Background image">Подробнее</a>
 					</div>
 				</div>
 			</div>
@@ -121,28 +123,28 @@
 			<div id="steps">
 				<div class="step">
 					<img src="img/step1.png" alt="Step one.">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut quis velit, veritatis.</p>
+					<p>Выбираем подходящий для Вас тип связи.</p>
 					<div class="number">
 						<span>1</span>
 					</div>
 				</div>
 				<div class="step">
 					<img src="img/step2.png" alt="Step two.">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga id fugit facere illo. Optio, tempora!</p>
+					<p>Координируем сроки и предоплату, подписываем контракт.</p>
 					<div class="number">
 						<span>2</span>
 					</div>
 				</div>
 				<div class="step">
 					<img src="img/step3.png" alt="Step three.">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, doloribus rem, vero, non at!</p>
+					<p>Заполняем бриф.</p>
 					<div class="number">
 						<span>3</span>
 					</div>
 				</div>
 				<div class="step">
 					<img src="img/step4.png" alt="Step four.">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, consequatur ratione cumque perferendis odit inventore.</p>
+					<p>Находимся на связи, закрываем заказ, конечный расчет.</p>
 					<div class="number">
 						<span>4</span>
 					</div>

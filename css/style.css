@@ -64,13 +64,13 @@
 /************************** Sticky sidebar with social media and contacts */
 
 .icon-bar {
-  position: fixed;
-  right: 0px;
-  z-index: 9999;
-  padding: 20px;
-  opacity: 0.9;
+    position: fixed;
+    right: 0px;
+    z-index: 9999;
+    padding: 15px;
+    opacity: 0.9;
 }
-
+  
 .icon-bar a {
   display: block;
   text-align: center;
@@ -88,7 +88,11 @@
 	border-radius: 50%;
 	background-color: #fff;
 	background-image: url('../img/css-sprite.png');
-	background-repeat: no-repeat;	
+	background-repeat: no-repeat;
+	box-shadow:
+    inset rgba(0,0,0,.6) 0 -3px 8px,
+    inset rgba(252,255,255,.7) 0 3px 8px,
+    rgba(0,0,0,.8) 0 3px 8px -3px;
 }
 
 .social-item a{
@@ -246,13 +250,13 @@
 }
 
 #slider1{
-	width: 600px;
+	width: 650px;
 	margin-right: 10%;
-	margin-top: 10%;
+	margin-top: 80px;
 }
 
 .heading{
-    margin-left: 7%;
+    /*margin-left: 7%;*/
     width: 10%;
     height: 100%;
     display: flex;
@@ -263,7 +267,7 @@
 
 .heading h2{
 	color: white;
-	font-size: 17px;
+	font-size: 20px;
 	transform: rotate(270deg);
 }
 
@@ -283,7 +287,7 @@
 #slider1 .common_btn{
 	position: absolute;
 	bottom: -100px;
-	left: 200px;
+	left: 220px;
 	width: 200px;
     background-color: #075072;
     color: #fff;
@@ -292,7 +296,27 @@
 	text-decoration: none;
 	text-transform: uppercase;
 	text-align: center;
+	/*box-shadow:
+    inset rgba(0,0,0,.6) 0 -3px 8px,
+    inset rgba(252,255,255,.7) 0 3px 8px,
+    rgba(0,0,0,.8) 0 3px 8px -3px;*/
 }
+
+#slider1 .common_btn img{
+	width: 35px;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+
+}
+
+.bx-wrapper{
+ border-color: #595959;	
+}
+/*
+.bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active, .bx-wrapper .bx-pager.bx-default-pager a:focus {
+    background-color: #595959;
+}*/
 
 /************************** COOPERATE */
 #cooperate{
