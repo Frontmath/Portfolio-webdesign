@@ -310,6 +310,7 @@
 #cooperate div.flex-container{
 	height: 100%;
 	width: 1170px;
+	justify-content: flex-start;
 }
 
 #cooperate .heading h2:before{	
@@ -321,51 +322,25 @@
     right: 350px;  
 }
 
-#steps{
-	display: flex;
-	height: 100%;
-	flex-basis: 80%;
-	justify-content: space-around;
-	flex-wrap: wrap;
-	padding-top: 50px;
+#slider2{
+	margin-left: 100px;
+	width: 650px;
+	margin-right: 10%;
+	margin-top: 80px;
 }
 
-.step{
-	flex-basis: 35%;
-	height: 35%;
-	margin: 10px;
-	position: relative;
-	z-index: 1;
+#slider2 img{
+	width: 540px;
+	height: 560px;
 }
 
-.step img{
-	width: 70%;
-	border: 5px solid #FFFFFF;
+.bx-wrapper .bx-pager {    
+	transform: rotate(90deg);
+    position: absolute;
+    left: 310px;
+    bottom: 48%;
 }
 
-.step p{
-	color: #FFFFFF;
-}
-
-.step .number{
-	position: absolute;
-	border: 5px solid #2D97BE;
-	width: 70px;
-	height: 70px;
-	font-size: 20px;
-	top: -15%;
-	right: 15%;
-	z-index: -1;
-}
-
-.step .number span{
-	font-size: 40px;
-	font-weight: bold;
-	color: #fff;
-	position: absolute;
-	top: 8px;
-	right: 10px;
-}
 
 /************************** ADVANTAGES */
 #advantages{

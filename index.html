@@ -15,13 +15,20 @@
 	<script src="js/smooth.js"></script>
 	<script>
 		$(document).ready(function(){
-    		$('.bxslider').bxSlider({
+    		$('.bxslider01').bxSlider({
     			mode:'fade',
     			captions: true,
     			slideWidth: 650,
     			adaptiveHeight: true,
     			touchEnabled : (navigator.maxTouchPoints > 0)
     			// touchEnabled: falsetouchEnabled : (navigator.maxTouchPoints > 0) - this was added because links within slides did not work... may be we need to find a better solution!? When adding responsiveness - check whether swiping works or not!
+    		});
+    		$('.bxslider02').bxSlider({
+    			mode:'vertical',
+    			captions: true,
+    			slideWidth: 540,
+    			infiniteLoop: false,
+    			adaptiveHeight: true
     		});
   		});
 	</script>
@@ -96,7 +103,7 @@
 				<h2>ПОРТФОЛИО</h2>
 			</div>
 			<div id="slider1">				
-				<div class="bxslider">
+				<div class="bxslider bxslider01">
 					<div>
 						<img src="img/flowerSite.png" title="Flower website design.">
 						<a href="https://dribbble.com/shots/7134800-Flower-design" class="common_btn" target="_blank">Подробнее</a>
@@ -124,33 +131,19 @@
 			<div class="heading">
 				<h2>СОТРУДНИЧЕСТВО</h2>
 			</div>
-			<div id="steps">
-				<div class="step">
-					<img src="img/step1.png" alt="Step one.">
-					<p>Выбираем подходящий для Вас тип связи.</p>
-					<div class="number">
-						<span>1</span>
+			<div id="slider2">				
+				<div class="bxslider bxslider02">
+					<div>
+						<img src="img/step1.png" title="Выбираем подходящий для Вас тип связи.">
 					</div>
-				</div>
-				<div class="step">
-					<img src="img/step2.png" alt="Step two.">
-					<p>Координируем сроки и предоплату, подписываем контракт.</p>
-					<div class="number">
-						<span>2</span>
+					<div>
+						<img src="img/step2.png" title="Координируем сроки и предоплату, подписываем контракт.">
 					</div>
-				</div>
-				<div class="step">
-					<img src="img/step3.png" alt="Step three.">
-					<p>Заполняем бриф.</p>
-					<div class="number">
-						<span>3</span>
+					<div>
+						<img src="img/step3.png" title="Заполняем бриф.">
 					</div>
-				</div>
-				<div class="step">
-					<img src="img/step4.png" alt="Step four.">
-					<p>Находимся на связи, закрываем заказ, конечный расчет.</p>
-					<div class="number">
-						<span>4</span>
+					<div>
+						<img src="img/step4.png" title="Находимся на связи, закрываем заказ, конечный расчет.">
 					</div>
 				</div>
 			</div>
