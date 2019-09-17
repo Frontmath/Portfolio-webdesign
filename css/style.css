@@ -237,7 +237,7 @@
 /************************** PORTFOLIO */
 #portfolio{
 	height: 700px;
-	background: linear-gradient(to left, #8FD0F2 68.45%, #595959 31.55%)
+	background: linear-gradient(to left, #8FD0F2 80%, #595959 20%)
 }
 
 #portfolio div.flex-container{
@@ -247,7 +247,7 @@
 
 #slider1{
 	width: 650px;
-	margin-right: 10%;
+	margin-right: 20%;
 	margin-top: 80px;
 }
 
@@ -272,7 +272,7 @@
     border-bottom: 2px solid #FFFFFF;
     position: absolute;
     top: 8px;
-    right: 350px;  
+    right: 395px;  
 }
 
 #portfolio .bx-viewport{
@@ -284,13 +284,20 @@
 	bottom: -100px;
 	left: 220px;
 	width: 200px;
-    background-color: #075072;
+    background-color: #2C97BD;
     color: #fff;
-	padding: 15px 35px;
+	padding: 15px;
 	border-radius: 25px;
 	text-decoration: none;
 	text-transform: uppercase;
 	text-align: center;
+}
+
+#slider1 .common_btn:hover{
+	box-shadow:
+    inset rgba(0,0,0,.6) 0 -2px 5px,
+    inset rgba(252,255,255,.7) 0 2px 5px,
+    rgba(0,0,0,.8) 0 2px 5px -2px;
 }
 
 .bx-wrapper{
@@ -301,10 +308,77 @@
     background-color: #595959;
 }*/
 
+/************************* ABOUT ME */
+
+#aboutme{
+	height: 700px;
+	background: linear-gradient(90deg, #595959 80%, #8FD0F2 20%);
+}
+
+#aboutme div.flex-container{
+	height: 100%;
+	width: 1170px;
+	justify-content: flex-start;
+}
+
+#aboutme .heading{
+	padding-bottom: 60px;
+}
+
+#aboutme .heading h2:before{	
+    content: "";
+    width: 150px;
+    border-bottom: 2px solid #FFFFFF;
+    position: absolute;
+    top: 8px;
+    right: 390px;  
+}
+
+#aboutmeContent{
+	align-self: center;
+	width: 650px;
+	height: 500px;
+	/*border: 1px solid white;*/
+	border-radius: 10px;
+	padding: 10px;
+	margin-left: 60px;
+	color: #FFFFFF;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.contentItem{
+	padding: 10px;
+	font-size: 25px;
+	flex-basis: 45%;
+}
+
+#aboutmeContent ul{
+	margin-left: 25px;
+}
+
+#aboutmeContent h3{
+	margin-bottom: 30px;
+	font-size: 35px;
+}
+
+#aboutmeContent h4{
+	margin-bottom: 10px;
+}
+
+div.contentItem:first-child{
+	flex-basis: 90%;
+}
+
+div.contentItem:nth-child(2){
+	margin-left: 50px;
+}
+
 /************************** COOPERATE */
 #cooperate{
 	height: 700px;
-	background: linear-gradient(to right, #595959 68.45%, #8FD0F2 31.55%)
+	background: linear-gradient(to left, #8FD0F2 80%, #595959 20%)
 }
 
 #cooperate div.flex-container{
@@ -330,27 +404,21 @@
 }
 
 #slider2 img{
-	width: 540px;
-	height: 560px;
-}
-
-.bx-wrapper .bx-pager {    
-	transform: rotate(90deg);
-    position: absolute;
-    left: 310px;
-    bottom: 48%;
+	width: 675px;
+	height: 487.5px;
 }
 
 
 /************************** ADVANTAGES */
 #advantages{
 	height: 700px;
-	background: linear-gradient(to left, #8FD0F2 68.45%, #595959 31.55%)
+	background: linear-gradient(90deg, #595959 80%, #8FD0F2 20%);
 }
 
 #advantages div.flex-container{
 	height: 100%;
 	width: 1170px;
+	justify-content: flex-start;
 }
 
 
@@ -375,7 +443,9 @@
 	align-items: center;
 }
 
-.advantage:nth-of-type(odd){
+.advantage:nth-of-type(odd){	
+	border-bottom: 12px solid transparent;
+	border-right: 12px solid transparent;
 	border-top: 12px solid #2C97BD;
 	border-left: 12px solid #2C97BD;
 }
@@ -383,7 +453,9 @@
 .advantage:nth-of-type(even){
 	padding-top: 12px;
 	border-bottom: 12px solid #2C97BD;
-	border-right: 12px solid #2C97BD;	
+	border-right: 12px solid #2C97BD;
+	border-top: 12px solid transparent;
+	border-left: 12px solid transparent;	
 }
 
 .advantage img{
