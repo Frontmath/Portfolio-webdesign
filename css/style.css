@@ -8,6 +8,11 @@
 	background: linear-gradient(90deg, #595959 68.45%, #8FD0F2 31.55%);
 }
 
+
+#head .flex-container{
+	background: linear-gradient(90deg, #595959 80%, #8FD0F2 20%);	
+}
+
 .flex-container{
 	width: 1170px;
 	margin: auto;
@@ -24,66 +29,7 @@
 
 #logo{
     width: 70px;
-    margin: 10px;
-}
-
-/************************************** Trying background effects! */
-
-#background{
-    position:absolute;
-    top: 250px;
-    z-index:0;
-    display:block;
-    min-height:50%; 
-    min-width:50%;
-}
-
-#bg-text{
-    color: #686868;
-    font-size: 80px;
-    transform:rotate(300deg);
-    -webkit-transform:rotate(300deg);
-    text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
-}
-
-.stamp {
-  transform: rotate(12deg);
-	color: #555;
-	font-size: 3rem;
-	font-weight: 700;
-	border: 0.25rem solid #555;
-	display: inline-block;
-	padding: 0.25rem 1rem;
-	text-transform: uppercase;
-	border-radius: 1rem;
-	font-family: 'Courier';
-	-webkit-mask-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/8399/grunge.png');
-  -webkit-mask-size: 944px 604px;
-  mix-blend-mode: multiply;
-}
-
-.is-approved {
-	color: #91D1F0;
-	border: 0.5rem solid #91D1F0;
-	-webkit-mask-position: 13rem 6rem;
-	transform: rotate(-14deg);
-  border-radius: 0;
-    top: -150px;
-    left: 50px;
-    position: absolute;
-} 
-
-.is-draft {
-	color: #F5F504;
-	border: 1rem double #F5F504;
-	transform: rotate(-5deg);
-  font-size: 6rem;
-  font-family: "Open sans", Helvetica, Arial, sans-serif;
-  border-radius: 0;
-  padding: 0.5rem;
-    top: 20px;
-    left: 50px;
-    position: absolute;
+    margin: 20px;
 }
 
 /* Style the navigation menu */
@@ -209,6 +155,7 @@
 #main .flex-container{
 	height: 100%;
 	position: relative;
+	background: linear-gradient(90deg, #595959 80%, #8FD0F2 20%);
 }
 
 #squares{
@@ -333,26 +280,59 @@
 	overflow: visible !important;
 }
 
-#slider1 .common_btn{
-	position: absolute;
-	bottom: -100px;
-	left: 220px;
-	width: 200px;
-    color: #fff;
-	padding: 15px;
-	border-radius: 25px;
-	text-decoration: none;
-	text-transform: uppercase;
-	text-align: center;
-    background-color: #2C97BD;
-    -webkit-transition: all 0.5s ease;;
-    -moz-transition: all 0.5s ease;;
-    -o-transition: all 0.5s ease;;
-    transition: all 0.5s ease;
+#portfolio .bx-viewport {
+    height: 480px !important;
 }
 
-#slider1 .common_btn:hover{
-    background-color: #167B9E;
+figure {
+  width: 180px;
+  height: 54px;
+  cursor: pointer;
+  perspective: 500px;
+  -webkit-perspective: 500px;
+  position: absolute;
+  bottom: -110px;
+  left: 230px;
+  transform: scale(0.9);
+}
+
+figure div {
+  height: 100%;
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  transition: 0.25s;
+  -webkit-transition: 0.25s;
+}
+
+figure:hover div {
+  transform: rotateX(-90deg);
+}
+
+#slider1 .common_btn {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  box-sizing: border-box;
+  border: 5px solid #fff;
+  font-family: 'Source Sans Pro',sans-serif;
+  line-height: 50px;
+  font-size: 17px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+figure div a:nth-child(1) {
+  color: #fff;
+  transform: translate3d(0, 0, 27px);
+  -webkit-transform: translate3d(0, 0, 27px);
+}
+
+figure div a:nth-child(2) {
+  color: #8FD0F2;
+  background: #fff;
+  transform: rotateX(90deg) translate3d(0, 0, 27px);
+  -webkit-transform: rotateX(90deg) translate3d(0, 0, 27px);
 }
 
 .bx-wrapper{
@@ -375,6 +355,7 @@
 	height: 100%;
 	width: 1170px;
 	justify-content: flex-start;
+	background: linear-gradient(90deg, #595959 80%, #8FD0F2 20%);
 }
 
 #aboutme .heading{
@@ -473,6 +454,7 @@ div.contentItem:nth-child(2){
 	height: 100%;
 	width: 1170px;
 	justify-content: space-between;
+	background: linear-gradient(90deg, #595959 80%, #8FD0F2 20%);
 }
 
 
