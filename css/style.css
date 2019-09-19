@@ -512,3 +512,37 @@ div.contentItem:nth-child(2){
 	margin-top: 30px;
 	padding: 10px;
 }
+
+
+/********************* FOOTER */
+
+footer {
+	background-color: #7B7B7B;
+	color: #FBFBFB;
+}
+
+footer .flex-container{
+	padding: 20px;
+	padding-bottom: 30px;
+}
+
+.footerItem{
+	flex-basis: 30%
+}
+
+.footerItem:nth-child(3){
+	flex-basis: 35%
+}
+
+footer .footerItem h2{
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+footer .footerItem ul{
+	list-style: none;
+}
+
+footer .footerItem span{
+	margin-bottom: 20px;
+}
