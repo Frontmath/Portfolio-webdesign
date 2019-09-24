@@ -273,7 +273,7 @@
     border-bottom: 2px solid #FFFFFF;
     position: absolute;
     top: 8px;
-    right: 395px;  
+    right: 215%;  
 }
 
 #portfolio .bx-viewport{
@@ -368,7 +368,7 @@ figure div a:nth-child(2) {
     border-bottom: 2px solid #FFFFFF;
     position: absolute;
     top: 8px;
-    right: 390px;  
+    right: 215%;  
 }
 
 #aboutmeContent{
@@ -429,7 +429,7 @@ div.contentItem:nth-child(2){
     border-bottom: 2px solid #FFFFFF;
     position: absolute;
     top: 8px;
-    right: 350px;  
+    right: 270%;  
 }
 
 #slider2{
@@ -446,7 +446,7 @@ div.contentItem:nth-child(2){
 
 /************************** ADVANTAGES */
 #advantages{
-	height: 700px;
+	height: 1200px;
 	background: linear-gradient(90deg, #595959 68.45%, #8FD0F2 31.55%);
 }
 
@@ -462,15 +462,15 @@ div.contentItem:nth-child(2){
 	display: flex;
 	height: 100%;
 	flex-basis: 78%;
-	justify-content: space-around;
+	justify-content: flex-start;
 	flex-wrap: wrap;
 	padding-top: 10%;
 	margin-left: 20px;
 }
 
 .advantage{
-	flex-basis: 23%;
-	height: 80%;
+	flex-basis: 26%;
+	height: 42%;
 	padding: 10px;
 	color: white;
 	display: flex;
@@ -480,19 +480,40 @@ div.contentItem:nth-child(2){
 	align-items: center;
 }
 
-.advantage:nth-of-type(odd){	
+.advantage:nth-of-type(1){	
 	border-bottom: 12px solid transparent;
 	border-right: 12px solid transparent;
 	border-top: 12px solid #2C97BD;
 	border-left: 12px solid #2C97BD;
 }
 
-.advantage:nth-of-type(even){
+.advantage:nth-of-type(2){
 	padding-top: 12px;
 	border-bottom: 12px solid #2C97BD;
 	border-right: 12px solid #2C97BD;
 	border-top: 12px solid transparent;
-	border-left: 12px solid transparent;	
+	border-left: 12px solid transparent;
+	margin-left: 100px;
+	margin-right: 35%;
+}
+
+.advantage:nth-of-type(3){
+	padding-top: 12px;
+	border-top: 12px solid #2C97BD;
+	border-left: 12px solid #2C97BD;
+	border-bottom: 12px solid transparent;
+	border-right: 12px solid transparent;
+	margin-top: 50px;
+}
+
+.advantage:nth-of-type(4){
+	padding-bottom: 12px;
+	border-bottom: 12px solid #2C97BD;
+	border-right: 12px solid #2C97BD;
+	border-top: 12px solid transparent;
+	border-left: 12px solid transparent;
+	margin-top: 50px;
+	margin-left: 100px;	
 }
 
 .advantage img{
@@ -501,7 +522,7 @@ div.contentItem:nth-child(2){
 }
 
 .advantage h3{
-	font-size: 13px;
+	font-size: 16px;
 	text-transform: uppercase;
 	margin-top: 50px;
 }
@@ -510,7 +531,7 @@ div.contentItem:nth-child(2){
 .advantage p{
 	text-align: center;
 	margin-top: 30px;
-	padding: 10px;
+	padding: 14px;
 }
 
 
@@ -522,8 +543,7 @@ footer {
 }
 
 footer .flex-container{
-	padding: 20px;
-	padding-bottom: 30px;
+	padding: 30px;
 }
 
 .footerItem{
@@ -541,8 +561,47 @@ footer .footerItem h2{
 
 footer .footerItem ul{
 	list-style: none;
+	font-size: 20px;
 }
 
 footer .footerItem span{
 	margin-bottom: 20px;
+}
+
+/*********************** Search */
+
+.search {
+  width: 100%;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.searchTerm {
+  width: 100%;
+  padding: 10px;
+  height: 40px;
+  border: none;
+  outline: none;
+  color: #595959;
+  font-size: 15px;
+}
+
+.searchTerm:focus{
+  color: #595959;
+}
+
+.searchButton {
+  width: 40px;
+  height: 40px;
+  border: none;
+  outline: none;
+  background: #fff;
+  text-align: center;
+  color: #595959;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.fa {    
+    font-size: 25px;
 }
