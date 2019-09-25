@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/jquery.bxslider.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
 	<!-- bxslider js-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script src="js/jquery.bxslider.min.js"></script>	
@@ -19,14 +20,12 @@
     		$('.bxslider01').bxSlider({
     			mode:'fade',
     			captions: true,
-    			slideWidth: 650,
-    			adaptiveHeight: true,
+    			responsive: true,
     			touchEnabled : (navigator.maxTouchPoints > 0)
     			// touchEnabled: falsetouchEnabled : (navigator.maxTouchPoints > 0) - this was added because links within slides did not work... may be we need to find a better solution!? When adding responsiveness - check whether swiping works or not!
     		});
     		$('.bxslider02').bxSlider({
     			captions: true,
-    			slideWidth: 675,
     			infiniteLoop: false,
     			adaptiveHeight: true
     		});
@@ -198,6 +197,14 @@
 					<div>
 						<img src="img/step4.jpg" title="Находимся на связи, закрываем заказ, конечный расчет.">
 					</div>
+				</div>
+				<div id="cooperate-btn">
+					<figure>
+						<div>
+							<a href="#" class="common_btn" target="_blank">ПОДАТЬ ЗАЯВКУ</a>
+							<a href="#" class="common_btn" target="_blank">СВЯЗАТЬСЯ</a>	
+						</div>							
+					</figure>					
 				</div>
 			</div>
 		</div>

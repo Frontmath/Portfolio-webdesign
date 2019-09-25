@@ -1,0 +1,113 @@
+@media all and (max-width: 1400px){
+	.navbar a {
+		font-size: 16px;
+	}
+
+	#main{
+		height: 600px;
+	}
+
+	#squares{
+		top: 10%;
+	}
+
+	#squares .square{	
+		border: 11px solid #90D0F3;
+	}
+
+	#squares div:first-child{
+		width: 220px;
+		height: 220px;
+	}
+
+	#squares div:nth-child(2){
+		width: 310px;
+		height: 310px;
+    	top: 80px;
+    	left: 110px;
+	}
+
+	#squares div:nth-child(3){
+		width: 220px;
+		height: 220px;
+		left: 315px;
+		top: 250px;
+	}
+
+	#squares div.flower{
+		left: 15px;
+   		top: 0px;
+	}
+
+	.flower img{
+		width: 500px;
+	}
+
+	#quotation {
+	    bottom: 20px;
+	}
+
+	#quotation p{
+		padding: 15px;
+		font-size: 16px;
+	}
+
+	#quotation cite{
+		padding: 15px;
+		font-size: 16px;
+	}
+
+	.heading h2 {
+	    font-size: 23px;
+	}
+
+	/**********PORTFOLIO*/
+
+	#portfolio{
+		height: 650px;
+	}
+
+	#slider1{
+		width: 572px;
+		margin-top: 60px;
+	}
+
+
+	#portfolio .bx-viewport {
+	    height: 422px !important;
+	}
+
+	figure {
+	  left: 195px;
+	}
+}
+
+@media all and (max-width: 1200px){
+	
+}
+
+@media all and (max-width: 1024px){
+	
+}
+
+@media all and (max-width: 900px){
+	
+}
+
+@media all and (max-width: 768px){
+
+}
+
+@media all and (max-width: 600px){
+	
+}
+
+@media all and (max-width: 480px){
+
+}
+
+@media all and (max-width: 320px){
+
+}
+
+

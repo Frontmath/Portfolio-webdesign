@@ -185,7 +185,6 @@
 	left: 110px
 }
 
-
 #squares div:nth-child(3){
 	width: 250px;
 	height: 250px;
@@ -309,7 +308,7 @@ figure:hover div {
   transform: rotateX(-90deg);
 }
 
-#slider1 .common_btn {
+.common_btn {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -445,6 +444,13 @@ div.contentItem:nth-child(2){
 	height: 487.5px;
 }
 
+#cooperate-btn{
+	position: relative;
+}
+
+#cooperate-btn figure {
+  bottom: -40px;
+}
 
 /************************** ADVANTAGES */
 #advantages{
