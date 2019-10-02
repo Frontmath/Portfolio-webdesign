@@ -9,7 +9,6 @@
 		margin-top: 60px;
 	}
 
-
 	#portfolio .bx-viewport {
 	    height: 422px !important;
 	}
@@ -19,15 +18,15 @@
 	}
 
 	#aboutmeContent{
-		margin-left: 80px;
+		margin-left: 15px;
+	}
+		
+	#aboutme .heading{
+		margin-right: 5px;
 	}
 
 	#cooperate{
 		height: 650px;
-	}
-
-	#cooperate div.flex-container{
-		justify-content: space-between;
 	}
 
 	#slider2{
@@ -39,9 +38,17 @@
 	#cooperate .bx-viewport {
 	    height: 413px !important;
 	}
+	
+	#cooperate .heading{
+		margin-right: 100px;
+	}
+
+	#cooperate-btn figure { 
+    	left: 195px;
+	}
 
 	.advantage:nth-of-type(1){
-		margin-left: 100px;
+		margin-left: 70px;
 	}
 
 	.advantage:nth-of-type(2){
@@ -49,15 +56,25 @@
 	}
 
 	.advantage:nth-of-type(3){
-		margin-left: 100px;
+		margin-left: 70px;
 	}
 
 	.advantage{
 		flex-basis: 24%;
 	}
+
+	#advantages .heading{
+		margin-right: 20px;
+	}
 }
 
 @media all and (max-width: 1400px){
+	.icon-bar{
+		transform: scale(0.8);
+		top: 5%;
+		right: -10px;
+	}
+
 	.navbar a {
 		font-size: 16px;
 	}
@@ -116,8 +133,32 @@
 		font-size: 16px;
 	}
 
-	#aboutmeContent{
-		margin-left: 100px;
+	#slider1{
+		width: 546px;
+	}
+
+	#portfolio .bx-viewport {
+    	height: 402px !important;
+	}
+
+	figure {
+	  left: 175px;
+	}
+
+	#portfolio .heading, #cooperate .heading{
+		margin-right: 105px;
+	}
+
+	#portfolio .heading h2:before{	
+	    right: 195%;  
+	}
+
+	.heading h2 {
+	    font-size: 22px;
+	}
+
+	#aboutme .heading{
+	    margin-right: 0px;
 	}
 
 	#aboutme{
@@ -128,13 +169,142 @@
 		font-size: 22px;
 	}
 
+	#aboutmeContent{
+		margin-left: 0px;
+	}
+
 	#aboutmeContent h3{
 		font-size: 27px;
+	}
+
+	#aboutme .heading h2:before{
+    	right: 190%;  
+	}
+
+	#slider2{
+		width: 545px;
+	}
+
+	#cooperate-btn figure {
+    	left: 185px;
+	}
+
+	#cooperate .heading h2:before{	
+    	right: 255%;  
+	}
+
+
+	#advantages .heading{
+		margin-right: 0px;
+	}
+
+	footer .flex-container{
+		width: 936px;
 	}
 }
 
 @media all and (max-width: 1200px){
-	
+	.flex-container{
+		width: 936px;
+	}
+
+	#head, #main, #portfolio, #aboutme, #cooperate, #advantages, footer{
+		width: 1200px;
+	}
+
+	.navbar a {
+		font-size: 15px;
+	}
+
+	#squares{
+		top: 10%;
+	}
+
+	#squares .square{	
+		border: 11px solid #90D0F3;
+	}
+
+	#squares div:first-child{
+		width: 190px;
+		height: 190px;
+	}
+
+	#squares div:nth-child(2){
+		width: 270px;
+		height: 270px;
+    	top: 80px;
+    	left: 110px;
+	}
+
+	#squares div:nth-child(3){
+		width: 190px;
+		height: 190px;
+		left: 315px;
+		top: 250px;
+	}
+
+	#squares div.flower{
+		left: 15px;
+   		top: 0px;
+	}
+
+	.flower img{
+		width: 450px;
+	}
+
+	#quotation {
+	    bottom: 20px;
+	}
+
+	#quotation p{
+		padding: 15px;
+		font-size: 16px;
+	}
+
+	#quotation cite{
+		padding: 15px;
+		font-size: 16px;
+	}
+
+	#portfolio{
+		height: 550px;
+	}
+
+	#slider1{
+		width: 455px;
+		margin-right: 26%;
+	}
+
+
+	#portfolio .bx-viewport {
+    	height: 334px !important;
+	}
+
+	figure {
+	  left: 135px;
+	}
+
+	.bx-wrapper .bx-caption span {
+		padding: 14px;
+	}
+
+	#aboutmeContent{
+		width: 630px;
+	}
+
+	#slider2{
+		width: 522px;
+	}
+
+	#cooperate-btn figure {
+    	left: 173px;
+	}
+
+	#block-advantages{
+		flex-basis: 72%;
+	}
+
+			
 }
 
 @media all and (max-width: 1024px){

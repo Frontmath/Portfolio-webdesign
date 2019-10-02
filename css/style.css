@@ -244,6 +244,7 @@
 #portfolio div.flex-container{
 	height: 100%;
 	width: 1170px;
+	justify-content: flex-end;
 }
 
 #slider1{
@@ -253,12 +254,12 @@
 }
 
 .heading{
-    width: 10%;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    flex-basis: 15%;
+    width: 15%;
+    margin-right: 100px;
 }
 
 .heading h2{
@@ -272,7 +273,7 @@
     width: 150px;
     border-bottom: 2px solid #FFFFFF;
     position: absolute;
-    top: 8px;
+    top: 50%;
     right: 215%;  
 }
 
@@ -355,12 +356,13 @@ figure div a:nth-child(2) {
 #aboutme div.flex-container{
 	height: 100%;
 	width: 1170px;
-	justify-content: flex-start;
+	justify-content: flex-end;
 	background: linear-gradient(90deg, #595959 80%, #8FD0F2 20%);
 }
 
 #aboutme .heading{
 	padding-bottom: 60px;
+	margin-right: 30px;
 }
 
 #aboutme .heading h2:before{	
@@ -368,8 +370,8 @@ figure div a:nth-child(2) {
     width: 150px;
     border-bottom: 2px solid #FFFFFF;
     position: absolute;
-    top: 8px;
-    right: 215%;  
+    top: 50%;
+    right: 200%;  
 }
 
 #aboutmeContent{
@@ -379,6 +381,7 @@ figure div a:nth-child(2) {
 	border-radius: 10px;
 	padding: 10px;
 	margin-left: 60px;
+	margin-right: 20%;
 	color: #FFFFFF;
 	display: flex;
 	flex-wrap: wrap;
@@ -421,7 +424,7 @@ div.contentItem:nth-child(2){
 #cooperate div.flex-container{
 	height: 100%;
 	width: 1170px;
-	justify-content: flex-start;
+	justify-content: flex-end;
 }
 
 #cooperate .heading h2:before{	
@@ -429,14 +432,15 @@ div.contentItem:nth-child(2){
     width: 150px;
     border-bottom: 2px solid #FFFFFF;
     position: absolute;
-    top: 8px;
+    top: 50%;
     right: 270%;  
 }
 
+
 #slider2{
-	margin-left: 110px;
 	width: 650px;
 	margin-top: 80px;
+	margin-right: 20%;
 }
 
 #slider2 img{
@@ -450,6 +454,7 @@ div.contentItem:nth-child(2){
 
 #cooperate-btn figure {
   bottom: -40px;
+  left: 235px;
 }
 
 /************************** ADVANTAGES */
@@ -461,15 +466,14 @@ div.contentItem:nth-child(2){
 #advantages div.flex-container{
 	height: 100%;
 	width: 1170px;
-	justify-content: space-between;
+	justify-content: flex-end;
 	background: linear-gradient(90deg, #595959 80%, #8FD0F2 20%);
 }
-
 
 #block-advantages{
 	display: flex;
 	height: 100%;
-	flex-basis: 78%;
+	flex-basis: 74%;
 	justify-content: flex-start;
 	flex-wrap: wrap;
 	padding-top: 5%;
