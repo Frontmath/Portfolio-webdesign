@@ -161,8 +161,8 @@
 	    font-size: 22px;
 	}
 
-	#aboutme .heading{
-	    margin-right: 0px;
+	#aboutme .heading, #advantages .heading{
+	    margin-right: -30px;
 	}
 
 	#aboutme{
@@ -197,11 +197,6 @@
     	right: 255%;  
 	}
 
-
-	#advantages .heading{
-		margin-right: 0px;
-	}
-
 	footer .flex-container{
 		width: 936px;
 	}
@@ -213,7 +208,11 @@
 	}
 
 	#head, #main, #portfolio, #aboutme, #cooperate, #advantages, footer{
-		width: 1200px;
+		width: 100%;
+	}
+
+	#portfolio .heading, #cooperate .heading{
+		margin-right: 75px;
 	}
 
 	.navbar a {
@@ -279,7 +278,6 @@
 		margin-right: 26%;
 	}
 
-
 	#portfolio .bx-viewport {
     	height: 334px !important;
 	}
@@ -306,13 +304,157 @@
 
 	#block-advantages{
 		flex-basis: 72%;
-	}
-
-			
+	}			
 }
 
 @media all and (max-width: 1024px){
-	
+	.flex-container{
+		width: 819px;
+	}
+
+	#logo {
+	    width: 60px;
+	}
+
+	#main{
+		height: 550px;
+	}
+
+	.navbar a {
+		font-size: 14px;
+		border-bottom: 2px solid transparent;
+	}
+
+	.navbar a:hover {
+		border-bottom: 2px solid white;
+	}
+
+	.navbar a.active {
+		border-bottom: 2px solid white;
+	}
+
+	.icon-bar{
+		transform: scale(0.7);
+	}
+
+	#squares{
+		top: 8%;
+	}
+
+	#squares .square{	
+		border: 10px solid #90D0F3;
+	}
+
+	#squares div:first-child{
+		width: 165px;
+		height: 165px;
+	}
+
+	#squares div:nth-child(2){
+		width: 235px;
+		height: 235px;
+    	top: 70px;
+    	left: 90px;
+	}
+
+	#squares div:nth-child(3){
+		width: 165px;
+		height: 165px;
+		left: 265px;
+		top: 220px;
+	}
+
+	#squares .square .littleSquare{
+		width: 28px;
+		height: 28px;	
+	}
+
+	.flower img{
+		width: 410px;
+	}
+
+	#quotation {
+	    bottom: 20px;
+	}
+
+	#quotation p{
+		font-size: 14px;
+	}
+
+	#quotation cite{
+		font-size: 14px;
+	}
+
+	.heading h2 {
+	    font-size: 20px;
+	}
+
+	#portfolio{
+		height: 520px;
+	}
+
+	#slider1{
+		width: 400px;
+		margin-right: 36%;
+	}
+
+
+	#portfolio .bx-viewport {
+    	height: 293px !important;
+	}
+
+	figure {
+	  left: 105px;
+	  transform: scale(0.8);
+	}
+
+	.bx-wrapper .bx-caption span {
+		padding: 13px;
+	}
+
+	#portfolio .heading{
+		margin-right: 75px;
+	}
+
+	#aboutme .heading, #advantages .heading {
+	    margin-right: 30px;
+	}
+
+	#cooperate .heading{
+		margin-right: 80px;
+	}
+
+	#aboutme div.flex-container{
+		background: linear-gradient(90deg, #595959 70%, #8FD0F2 30%);
+	}
+
+	#aboutmeContent{
+		width: 540px;
+		margin-right: 28%;
+	}
+
+	#aboutmeContent .contentItem{
+		font-size: 20px;
+	}
+
+	#aboutmeContent h3 {
+	    font-size: 25px;
+	}
+
+	#slider2{
+		width: 457px;
+		margin-top: 80px;
+		margin-right: 31%;
+	}
+
+	#slider2 img{
+		width: 457px;
+		height: 412.5px;
+	}
+
+	#cooperate-btn figure {
+    	left: 143px;
+	}
 }
 
 @media all and (max-width: 900px){
