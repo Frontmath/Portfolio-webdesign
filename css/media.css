@@ -1,81 +1,6 @@
-@media all and (max-width: 1750px){
-
-	#portfolio{
-		height: 650px;
-	}
-
-	#slider1{
-		width: 572px;
-		margin-top: 60px;
-	}
-
-	#portfolio .bx-viewport {
-	    height: 422px !important;
-	}
-
-	figure {
-	  left: 195px;
-	}
-
-	#aboutmeContent{
-		margin-left: 15px;
-	}
-		
-	#aboutme .heading{
-		margin-right: 5px;
-	}
-
-	#cooperate{
-		height: 650px;
-	}
-
-	#slider2{
-		width: 572px;
-		margin-top: 70px;
-		margin-right: 20%;
-	}
-
-	#slider2 img{
-    	height: 412.5px;
-	}
-	
-	#cooperate .bx-viewport {
-	    height: 413px !important;
-	}
-	
-	#cooperate .heading{
-		margin-right: 100px;
-	}
-
-	#cooperate-btn figure { 
-    	left: 195px;
-	}
-
-	.advantage:nth-of-type(1){
-		margin-left: 70px;
-	}
-
-	.advantage:nth-of-type(2){
-		margin-right: 25%;
-	}
-
-	.advantage:nth-of-type(3){
-		margin-left: 70px;
-	}
-
-	.advantage{
-		flex-basis: 24%;
-	}
-
-	#advantages .heading{
-		margin-right: 20px;
-	}
-}
-
 @media all and (max-width: 1400px){
 	.icon-bar{
 		transform: scale(0.8);
-		top: 5%;
 		right: -10px;
 	}
 
@@ -137,66 +62,18 @@
 		font-size: 16px;
 	}
 
-	#slider1{
-		width: 546px;
-	}
-
-	#portfolio .bx-viewport {
-    	height: 402px !important;
-	}
-
-	figure {
-	  left: 175px;
-	}
-
-	#portfolio .heading, #cooperate .heading{
-		margin-right: 105px;
-	}
-
-	#portfolio .heading h2:before{	
-	    right: 195%;  
-	}
-
 	.heading h2 {
 	    font-size: 22px;
-	}
-
-	#aboutme .heading, #advantages .heading{
-	    margin-right: -30px;
-	}
-
-	#aboutme{
-		height: 600px;
 	}
 
 	.contentItem{
 		font-size: 22px;
 	}
 
-	#aboutmeContent{
-		margin-left: 0px;
-	}
-
 	#aboutmeContent h3{
 		font-size: 27px;
 	}
-
-	#aboutme .heading h2:before{
-    	right: 190%;  
-	}
-
-	#slider2{
-		width: 545px;
-	}
-
-	#cooperate-btn figure {
-    	left: 185px;
-	}
-
-	#cooperate .heading h2:before{	
-    	right: 255%;  
-	}
-
+	
 	footer .flex-container{
 		width: 936px;
 	}
@@ -209,10 +86,6 @@
 
 	#head, #main, #portfolio, #aboutme, #cooperate, #advantages, footer{
 		width: 100%;
-	}
-
-	#portfolio .heading, #cooperate .heading{
-		margin-right: 75px;
 	}
 
 	.navbar a {
@@ -268,43 +141,10 @@
 		padding: 15px;
 		font-size: 16px;
 	}
-
-	#portfolio{
-		height: 550px;
-	}
-
-	#slider1{
-		width: 455px;
-		margin-right: 26%;
-	}
-
-	#portfolio .bx-viewport {
-    	height: 334px !important;
-	}
-
-	figure {
-	  left: 135px;
-	}
-
+	
 	.bx-wrapper .bx-caption span {
 		padding: 14px;
-	}
-
-	#aboutmeContent{
-		width: 630px;
-	}
-
-	#slider2{
-		width: 522px;
-	}
-
-	#cooperate-btn figure {
-    	left: 173px;
-	}
-
-	#block-advantages{
-		flex-basis: 72%;
-	}			
+	}				
 }
 
 @media all and (max-width: 1024px){
@@ -393,11 +233,9 @@
 		height: 520px;
 	}
 
-	#slider1{
+	/*#slider1{
 		width: 400px;
-		margin-right: 36%;
 	}
-
 
 	#portfolio .bx-viewport {
     	height: 293px !important;
@@ -410,51 +248,7 @@
 
 	.bx-wrapper .bx-caption span {
 		padding: 13px;
-	}
-
-	#portfolio .heading{
-		margin-right: 75px;
-	}
-
-	#aboutme .heading, #advantages .heading {
-	    margin-right: 30px;
-	}
-
-	#cooperate .heading{
-		margin-right: 80px;
-	}
-
-	#aboutme div.flex-container{
-		background: linear-gradient(90deg, #595959 70%, #8FD0F2 30%);
-	}
-
-	#aboutmeContent{
-		width: 540px;
-		margin-right: 28%;
-	}
-
-	#aboutmeContent .contentItem{
-		font-size: 20px;
-	}
-
-	#aboutmeContent h3 {
-	    font-size: 25px;
-	}
-
-	#slider2{
-		width: 457px;
-		margin-top: 80px;
-		margin-right: 31%;
-	}
-
-	#slider2 img{
-		width: 457px;
-		height: 412.5px;
-	}
-
-	#cooperate-btn figure {
-    	left: 143px;
-	}
+	}*/	
 }
 
 @media all and (max-width: 900px){
